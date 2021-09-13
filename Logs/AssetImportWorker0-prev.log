@@ -1,0 +1,638 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18363.1556; Version 1909; 64bit' Language: 'en' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/FAKS/Coding/UnityProjects/163165
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50908
+Successfully changed project path to: D:/FAKS/Coding/UnityProjects/163165
+D:/FAKS/Coding/UnityProjects/163165
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 42.96 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 1.44 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/FAKS/Coding/UnityProjects/163165/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   27.21.14.6140
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001416 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 33.37 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.486 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003078 seconds.
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\FAKS\Coding\UnityProjects\163165\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\FAKS\Coding\UnityProjects\163165\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.710 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
+Unloading 1597 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.9 MB.
+System memory in use after: 71.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2039.
+Total: 1.961700 ms (FindLiveObjects: 0.223400 ms CreateObjectMapping: 0.043100 ms MarkObjects: 1.619600 ms  DeleteObjects: 0.074600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef
+  artifactKey: Guid(ad91be1e774094f99afb64ef26c07397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef using Guid(ad91be1e774094f99afb64ef26c07397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbea8ff89bd59dbe96fb02cb7bc2666') in 0.016472 seconds
+  Import took 0.018846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.397540 seconds.
+  path: Packages/com.google.xr.cardboard/package.json
+  artifactKey: Guid(044219c661427094b9dbdf2f559d06db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/package.json using Guid(044219c661427094b9dbdf2f559d06db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350f2c4d2b7856b1ea6da71f9a9fc8f1') in 0.009727 seconds
+  Import took 0.012066 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003383 seconds.
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\FAKS\Coding\UnityProjects\163165\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\FAKS\Coding\UnityProjects\163165\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.659 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
+Unloading 1546 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.7 MB.
+System memory in use after: 69.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2038.
+Total: 1.560200 ms (FindLiveObjects: 0.168000 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.314800 ms  DeleteObjects: 0.038800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.807365 seconds.
+  path: Assets/cardboard-xr-plugin-master
+  artifactKey: Guid(f443046c53993d044a60cef1955bd7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cardboard-xr-plugin-master using Guid(f443046c53993d044a60cef1955bd7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0185e3a00a92e137bb7c32a591b51611') in 0.010611 seconds
+  Import took 0.012937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.649769 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(0cc1b79de78bc4991892d4d342d7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(0cc1b79de78bc4991892d4d342d7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcdae251dacf7ffc1fe83fe15958405') in 0.003003 seconds
+  Import took 0.005307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.985167 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cc7322be20d86415dab00d6aeea626') in 0.007832 seconds
+  Import took 0.010164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.302246 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity
+  artifactKey: Guid(4d4e1bc274acb38438a76ce9b0f5e87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity using Guid(4d4e1bc274acb38438a76ce9b0f5e87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546021aa196e540aa102e1fa2a53fd7e') in 0.003116 seconds
+  Import took 0.005379 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003382 seconds.
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\FAKS\Coding\UnityProjects\163165\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\FAKS\Coding\UnityProjects\163165\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.648 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
+Unloading 1535 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.5 MB.
+System memory in use after: 69.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2033.
+Total: 1.754300 ms (FindLiveObjects: 0.161400 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.512100 ms  DeleteObjects: 0.047000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003249 seconds.
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\FAKS\Coding\UnityProjects\163165\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\FAKS\Coding\UnityProjects\163165\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.656 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
+Unloading 1542 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.7 MB.
+System memory in use after: 69.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2042.
+Total: 1.659300 ms (FindLiveObjects: 0.175400 ms CreateObjectMapping: 0.034200 ms MarkObjects: 1.410600 ms  DeleteObjects: 0.038200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003029 seconds.
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\FAKS\Coding\UnityProjects\163165\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\FAKS\Coding\UnityProjects\163165\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.644 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
+Unloading 1546 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.8 MB.
+System memory in use after: 69.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2050.
+Total: 1.564700 ms (FindLiveObjects: 0.152000 ms CreateObjectMapping: 0.034500 ms MarkObjects: 1.335700 ms  DeleteObjects: 0.041600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003078 seconds.
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\FAKS\Coding\UnityProjects\163165\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\FAKS\Coding\UnityProjects\163165\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.686 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.55 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Unloading 1550 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.8 MB.
+System memory in use after: 69.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2054.
+Total: 1.659700 ms (FindLiveObjects: 0.140300 ms CreateObjectMapping: 0.034800 ms MarkObjects: 1.450500 ms  DeleteObjects: 0.033300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.09 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 39.2 MB.
+System memory in use after: 39.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2054.
+Total: 1.759000 ms (FindLiveObjects: 0.202400 ms CreateObjectMapping: 0.034900 ms MarkObjects: 1.465100 ms  DeleteObjects: 0.055400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 195.176370 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(1a4c68ca72a83449f938d669337cb305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(1a4c68ca72a83449f938d669337cb305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bdcd8fbcc98776010b0e20b5b62d2a') in 0.015943 seconds
+  Import took 0.018459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.214992 seconds.
+  path: Assets/XR/Settings
+  artifactKey: Guid(e46a7475b581f492b93350cfd49fe84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings using Guid(e46a7475b581f492b93350cfd49fe84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc4c5418a14129ad8ec42ee7d43c0a0') in 0.002894 seconds
+  Import took 0.005093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.583560 seconds.
+  path: Assets/XR/Settings/Oculus Settings.asset
+  artifactKey: Guid(bfa1182bd221b4ca89619141f66f1260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Oculus Settings.asset using Guid(bfa1182bd221b4ca89619141f66f1260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc080cb9d3c48a4072231580e9e693d3') in 0.003813 seconds
+  Import took 0.006136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/XR/Settings/XR Settings.asset
+  artifactKey: Guid(74c43fa1c2cabb04485fce70651a4ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/XR Settings.asset using Guid(74c43fa1c2cabb04485fce70651a4ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe11989e3990d574664e04f5f238c17') in 0.003931 seconds
+  Import took 0.006021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/XR/Settings/Windows MR Package Settings.asset
+  artifactKey: Guid(dc5a169419fa04987b057f65238cf3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Windows MR Package Settings.asset using Guid(dc5a169419fa04987b057f65238cf3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adcf1eb15a4d39b20e03c3dddf1ba887') in 0.005700 seconds
+  Import took 0.007754 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003319 seconds.
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\FAKS\Coding\UnityProjects\163165\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\FAKS\Coding\UnityProjects\163165\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.679 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.53 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.0 MB.
+System memory in use after: 70.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2065.
+Total: 1.570900 ms (FindLiveObjects: 0.203300 ms CreateObjectMapping: 0.034700 ms MarkObjects: 1.293400 ms  DeleteObjects: 0.038800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 82.977920 seconds.
+  path: Assets/XR/Settings/Sample Settings.asset
+  artifactKey: Guid(7f3f64addf6e5a54a944afaae0f8381e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Sample Settings.asset using Guid(7f3f64addf6e5a54a944afaae0f8381e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7b6fe9719923088d9eb136bdbcdad7') in 0.026380 seconds
+  Import took 0.028825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.633420 seconds.
+  path: Assets/Samples/XR Plugin Management
+  artifactKey: Guid(ead955242cc1c2440ba01c9028ae2124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Plugin Management using Guid(ead955242cc1c2440ba01c9028ae2124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd69fc983443cbab73ef2d0440575b5') in 0.007092 seconds
+  Import took 0.009452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000758 seconds.
+  path: Assets/Samples/XR Plugin Management
+  artifactKey: Guid(ead955242cc1c2440ba01c9028ae2124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Plugin Management using Guid(ead955242cc1c2440ba01c9028ae2124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd69fc983443cbab73ef2d0440575b5') in 0.003096 seconds
+  Import took 0.005112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.095614 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.8.0/Hello Cardboard
+  artifactKey: Guid(acfa09f3373f9cf438d5ff0de11cdf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.8.0/Hello Cardboard using Guid(acfa09f3373f9cf438d5ff0de11cdf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20e476c3173408f27d5e23e2cb25a44') in 0.003105 seconds
+  Import took 0.005316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004348 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.8.0/Hello Cardboard
+  artifactKey: Guid(acfa09f3373f9cf438d5ff0de11cdf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.8.0/Hello Cardboard using Guid(acfa09f3373f9cf438d5ff0de11cdf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20e476c3173408f27d5e23e2cb25a44') in 0.003014 seconds
+  Import took 0.005430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.689243 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.8.0/Hello Cardboard/Scenes
+  artifactKey: Guid(6532d9b74af7e42dd9bfe5affd1bba03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.8.0/Hello Cardboard/Scenes using Guid(6532d9b74af7e42dd9bfe5affd1bba03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f21e27d6b9f3abeeb038db839aac033') in 0.003203 seconds
+  Import took 0.005491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.802814 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.8.0/Hello Cardboard/Scenes/HelloCardboard.unity
+  artifactKey: Guid(145a2a45d7bc746b19cb68410368bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.8.0/Hello Cardboard/Scenes/HelloCardboard.unity using Guid(145a2a45d7bc746b19cb68410368bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1cacf17a63bf22ff44a4fc7d83f1ca') in 0.020529 seconds
+  Import took 0.022839 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003183 seconds.
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Assets/cardboard-xr-plugin-master/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard.Editor' already exists (Packages/com.google.xr.cardboard/Editor/Google.XR.Cardboard.Editor.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Assets/cardboard-xr-plugin-master/Runtime/Google.XR.Cardboard.asmdef)
+
+Assembly with name 'Google.XR.Cardboard' already exists (Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef)
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.595 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.58 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
+Unloading 1994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.7 MB.
+System memory in use after: 84.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2502.
+Total: 1.661400 ms (FindLiveObjects: 0.279800 ms CreateObjectMapping: 0.044300 ms MarkObjects: 1.291700 ms  DeleteObjects: 0.044800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -1,0 +1,20 @@
+#
+# mtl file for eagle.obj obj file
+#
+
+newmtl creature/birdsofprey/birdsofprey.m2_Geoset_000_Dbl
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd eagle_birdsofprey_falconbarredforest.png
+newmtl creature/birdsofprey/birdsofprey.m2_Geoset_101_Dbl
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd eagle_birdsofprey_falconbarredforest.png

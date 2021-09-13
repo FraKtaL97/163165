@@ -1,0 +1,20 @@
+#
+# mtl file for tree.obj obj file
+#
+
+newmtl world/expansion08/doodads/babylonzone/9pln_plaintree_c02.m2_Geoset_000_Dbl
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd tree_9pln_plaintree_a01_2835214.png
+newmtl world/expansion08/doodads/babylonzone/9pln_plaintree_c02.m2_Geoset_000_Dbl
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd tree_9pln_plaintree_a01_2915701.png
